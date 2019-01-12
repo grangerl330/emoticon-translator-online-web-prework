@@ -15,9 +15,12 @@ end
 
 def get_japanese_emoticon(file_path, emoticon)
   library = load_library(file_path)
+  translation = nil 
   library["get_emoticon"].each do |english, japanese|
     if emoticon == english
       translation = japanese
+    else
+      puts 
     end
   end 
   translation
