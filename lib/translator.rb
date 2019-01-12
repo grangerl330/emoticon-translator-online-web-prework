@@ -20,7 +20,7 @@ def get_japanese_emoticon(file_path, emoticon)
     if emoticon == english
       translation = japanese
     else
-      puts 
+      puts "So"
     end
   end 
   translation
